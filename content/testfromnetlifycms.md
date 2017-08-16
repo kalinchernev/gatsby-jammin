@@ -1,0 +1,4 @@
+---
+title: testFromNetlifyCMS
+---
+ping thing
