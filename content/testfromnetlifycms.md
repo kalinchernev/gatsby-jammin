@@ -1,4 +1,4 @@
 ---
-title: testFromNetlifyCMS
+title: TestFromNetlifyCMS
 ---
-ping thing
+Let’s see a preview.
