@@ -14,12 +14,12 @@ export default class PostTemplate extends React.Component {
     const { slug } = this.props.pathContext;
     const postNode = this.props.data.markdownRemark;
     const post = postNode.frontmatter;
-    if (!post.id) {
-      post.id = this.props.location.pathname;
-    }
-    if (!post.id) {
-      post.category_id = config.postDefaultCategoryID;
-    }
+    // if (!post.id) {
+    //   post.id = this.props.location.pathname;
+    // }
+    // if (!post.id) {
+    //   post.category_id = config.postDefaultCategoryID;
+    // }
     return (
       <div>
         <Helmet>
