@@ -1,7 +1,7 @@
 import React from "react";
 import Helmet from "react-helmet";
 import PostListing from "../components/PostListing/PostListing";
-import config from "../../data/SiteConfig";
+import config from "../../gatsby-site-config";
 
 export default class CategoryTemplate extends React.Component {
   render() {
@@ -18,7 +18,7 @@ export default class CategoryTemplate extends React.Component {
   }
 }
 
-/* eslint no-undef: "off"*/
+/* eslint no-undef: "off" */
 export const pageQuery = graphql`
   query CategoryPage($category: String) {
     allMarkdownRemark(

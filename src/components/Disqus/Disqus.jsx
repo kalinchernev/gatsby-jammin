@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import ReactDisqusComments from "react-disqus-comments";
-import config from "../../../data/SiteConfig";
+import config from "../../../gatsby-site-config";
 
 class Disqus extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      toasts: []
+      toasts: [],
     };
     this.notifyAboutComment = this.notifyAboutComment.bind(this);
     this.onSnackbarDismiss = this.onSnackbarDismiss.bind(this);
